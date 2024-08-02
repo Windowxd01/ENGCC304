@@ -37,7 +37,7 @@
 int main () {
     int score = 0 ;
     printf( "Please enter your score : ") ;
-    if( scanf ( "%d", &score ) !=0 ) {
+    if( scanf ( "%d", &score ) !=1 ) {
         printf( "Please Enter Number Only" );
         return 1 ;
     }
