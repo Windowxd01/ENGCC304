@@ -11,9 +11,9 @@ int main () {
 
     switch (score / 5) {
     case 20 :
-        printf( "A!" ) ;
     case 18 :
     case 16 :
+        printf( "A!" ) ;
         break ;
     case 15 :
         printf( "B+!" ) ;
