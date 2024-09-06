@@ -66,5 +66,5 @@ int main () {
     default:
         printf( "Please Enter Number Only" ) ;
         break ;
-    }
+    }//end switch case
 }
