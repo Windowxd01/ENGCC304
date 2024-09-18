@@ -40,7 +40,7 @@ int main () {
     if( scanf ( "%d", &score ) !=1 ) {
         printf( "Please Enter Number Only" );
         return 1 ;
-    }
+    } //end if
 
     if( score >= 80 ) {
         printf( "A" ) ;
@@ -58,7 +58,7 @@ int main () {
         printf( "D" ) ;
     } else {
         printf( "F" );
-    } //end if
+    } //end if else
     
     return 0 ;
 }//end Function
