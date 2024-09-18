@@ -11,17 +11,17 @@ int main() {
                     printf( "1 " );
                 } else {
                     printf( "0 " );
-                }
-            }  
+                }//end if else
+            }//end for  
         } else {
         for (int a = 0; a < number; a++) {
                 if(i == number - a - 1){
                     printf( "1 " );
                 } else {
                     printf( "0 " );
-                }
-            }
-        }
-    }
+                } //end if else
+            }// end for
+        }//end if else
+    } //end for
     return 0;
 }
