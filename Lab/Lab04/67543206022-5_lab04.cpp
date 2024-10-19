@@ -32,16 +32,16 @@ int main() {
     char Id[ 10 ] ;
     int sar_id ;
 
-    printf( "Input The Employees ID(Max. 10 chars) : " ) ;
+    printf( " Input The Employees ID(Max. 10 chars) : " ) ;
     scanf( "%s", Id ) ;
-    printf( "Input The Working hrs : " ) ;
+    printf( " Input The Working hrs : " ) ;
     scanf( "%d", &time_w ) ;
-    printf( "Salary amount/hr : " ) ;
+    printf( " Salary amount/hr : " ) ;
     scanf( "%d", &sar_id ) ;
 
-    printf( "Output : \n" ) ;
-    printf( "Expected Output :\n" ) ;
-    printf( "Employees ID = %s ", Id ) ;
-    printf( "\nSalary = %d THB", time_w * sar_id *22 ) ;
+    printf( " Output : \n" ) ;
+    printf( " Expected Output :\n" ) ;
+    printf( " Employees ID = %s ", Id ) ;
+    printf( " \nSalary = %d THB", time_w * sar_id *22 ) ;
     return 0 ;
 }//end main function
